@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World JavaScript</title>
+</head>
+<body>
+    <center>
+            <p style="font-size: 20px;">Ascending the Spiritual Levels</p>
+            <p style="font-size: 20px;">by 
+                <a href="https://treasuryoflives.org/biographies/view/Sakya-Pandita-Kunga-Gyeltsen/2137">
+                    Sakya Pandita
+                </a>
+            </p>
+            <p style="font-size: 20px;">The Classic Tibetan Game of Rebirth Is Back!</p>
+        <a href="intro.html">
+            <div id='BhavachakraImg'>
+            </div>
+        </a>
+    <center>
+
+    <script>
+        const container = document.getElementById('BhavachakraImg');
+        // 1. Create a new <img> element
+        const img = document.createElement("img");
+        img.style.width = "400px";  // Set new desired width
+        img.style.height = "600px";
+
+        // 2. Set the image attributes
+        img.src = "images/Bhavachakra1.jpg";
+        img.alt = "Bhavachakra"
+        //img.width = 600; // Optional: set width in pixels
+
+        // 3. Append the image to a container (like the body or a specific div)
+        container.appendChild(img);
+    </script>
+
+</body>
+</html>
+
